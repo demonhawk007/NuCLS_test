@@ -1,0 +1,17 @@
+# Steps to install anaconda
+# curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
+# bash Anaconda3-2019.03-Linux-x86_64.sh
+# apt purge nvidia-*
+# add-apt-repository ppa:graphics-drivers/ppa
+# apt update
+# apt install nvidia-340
+
+torch
+torchvision
+histomicstk
+opencv-python-headless==4.2.0.34
+pyyaml==5.1.2
+urllib3==1.25.4
+histomicstk --find-links https://girder.github.io/large_image_wheels
+gitpython
+imageio
